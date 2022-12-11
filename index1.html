@@ -1,12 +1,11 @@
-<!DOCTYPE html public>
-<link rel="stylesheet" href="style.css">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LOVE</title>
+  <title>Document</title>
   <style>
     canvas {
       position: absolute;
@@ -20,7 +19,7 @@
 </head>
 
 <body>
-<div class="beloved"></div>
+  <div class="beloved"></div>
   <canvas id="heart">
 
   </canvas>
@@ -103,7 +102,7 @@
           D: 2 * (i % 2) - 1,
           force: 0.2 * rand() + 0.7,
           //f: "hsla(0," + ~~(40 * rand() + 60) + "%," + ~~(60 * rand() + 20) + "%,.3)",
-          f: "rgba(255, 26, 26, 0.7)",
+          f: "rgba(51, 204, 255, 0.7)",
           trace: []
         };
         for (var k = 0; k < traceCount; k++) e[i].trace[k] = {
